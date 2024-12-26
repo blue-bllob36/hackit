@@ -52,30 +52,33 @@ li a:hover {
 }
 .content h1 {
     margin-top: 80px;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 800;
+    color: #FFBC42;
 }
 .content p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 20px;
     color: #CBFF8C;
+    text-align: center;
 }
 button {
-    width: 200px;
+    width: 220px;
     padding: 15px;
     margin: 20px 5px;
     text-align: center;
     border-radius: 25px;
     color: #000000;
     border: 2px solid #849483;
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
     font-weight: 600;
+    background: #FFBC42;
 }
 button:hover {
-    background: #FFBC42;
+    background: #FFFFFF;
+    color: #FFBC42;
     transition: 0.5s;
-    color: #FFFFFF;
 }
 .banner video {
     position: absolute;
@@ -97,12 +100,12 @@ button:hover {
     color: #333;
 }
 .homepage h2 {
-    font-size: 3rem;
-    color: #000000;
+    font-size: 3.5rem;
+    color: #FFBC42;
     margin-bottom: 15px;
 }
 .homepage p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 .features {
@@ -121,7 +124,7 @@ button:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .feature-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #849483;
     margin-bottom: 10px;
 }
@@ -132,18 +135,18 @@ button:hover {
 .cta {
     text-align: center;
     padding: 30px;
-    background: #CBFF8C;
+    background: #FFBC42;
     color: #FFFFFF;
     border-radius: 10px;
 }
 .cta h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
     color: #000000;
 }
 .cta button {
     background: #FFFFFF;
-    color: #000000;
+    color: #FFBC42;
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
@@ -154,4 +157,3 @@ button:hover {
     background: #849483;
     color: #FFFFFF;
 }
-
