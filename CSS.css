@@ -54,13 +54,12 @@ li a:hover {
     margin-top: 80px;
     font-size: 100px;
     font-weight: 800;
-    color: #FFBC42;
+    color: #FFFFFF;
 }
 .content p {
     font-size: 2rem;
     margin-top: 20px;
     color: #CBFF8C;
-    text-align: center;
 }
 button {
     width: 220px;
@@ -73,11 +72,11 @@ button {
     font-size: 22px;
     cursor: pointer;
     font-weight: 600;
-    background: #FFBC42;
+    background: #FFFFFF;
 }
 button:hover {
-    background: #FFFFFF;
-    color: #FFBC42;
+    background: #FFBC42;
+    color: #FFFFFF;
     transition: 0.5s;
 }
 .banner video {
@@ -101,7 +100,7 @@ button:hover {
 }
 .homepage h2 {
     font-size: 3.5rem;
-    color: #FFBC42;
+    color: #000000;
     margin-bottom: 15px;
 }
 .homepage p {
@@ -135,7 +134,7 @@ button:hover {
 .cta {
     text-align: center;
     padding: 30px;
-    background: #FFBC42;
+    background: #CBFF8C;
     color: #FFFFFF;
     border-radius: 10px;
 }
@@ -146,7 +145,7 @@ button:hover {
 }
 .cta button {
     background: #FFFFFF;
-    color: #FFBC42;
+    color: #CBFF8C;
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
