@@ -100,7 +100,7 @@ button:hover {
 }
 .homepage h2 {
     font-size: 2rem;
-    color: rgb(0, 192, 226);
+    color: black;
     margin-bottom: 10px;
 }
 .homepage p {
@@ -125,34 +125,35 @@ button:hover {
 }
 .feature-item h3 {
     font-size: 1rem;
-    color: #007BFF;
+    color: gray;
     margin-bottom: 5px;
 }
 .feature-item p {
     font-size: 0.9rem;
-    color: #555;
+    color: gray;
 }
 
 /* Call-to-Action */
 .cta {
     text-align: center;
     padding: 20px;
-    background: rgb(0, 192, 226);
+    background: lightblue;
     color: white;
 }
 .cta h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: black;
 }
 .cta button {
     background: white;
-    color: rgb(0, 192, 226);
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .cta button:hover {
-    background: #0056b3;
+    background: gray;
     color: white;
 }
