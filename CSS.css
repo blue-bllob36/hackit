@@ -125,19 +125,19 @@ button:hover {
 }
 .feature-item h3 {
     font-size: 1rem;
-    color: gray;
+    color: darkgray;
     margin-bottom: 5px;
 }
 .feature-item p {
     font-size: 0.9rem;
-    color: gray;
+    color: black;
 }
 
 /* Call-to-Action */
 .cta {
     text-align: center;
     padding: 20px;
-    background: lightblue;
+    background: lightgreen;
     color: white;
 }
 .cta h3 {
