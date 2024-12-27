@@ -152,5 +152,169 @@ button:hover {
     font-size: 1rem;
     color: #000000;
 }
+/* General Page Styles */
+body {
+    font-size: 1.2rem; /* Increase base font size */
+    text-align: center; /* Center-align text by default */
+    line-height: 1.8; /* Improve readability */
+}
 
+h1, h2, h3 {
+    text-align: center; /* Center headings */
+}
+
+/* Blog Page Styles */
+.blog-page {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.blog-card {
+    margin: 20px auto;
+    text-align: left; /* Keep blog text left-aligned for readability */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Gallery Page Styles */
+.gallery-page {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.gallery-grid {
+    justify-content: center; /* Center the grid */
+    gap: 25px; /* Adjust spacing between items */
+}
+
+.gallery-item h3 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.gallery-item p {
+    font-size: 1rem;
+}
+
+/* Login Page Styles */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.login-form {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Contact Page Styles */
+.contact-page {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.contact-card {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    font-size: 1rem;
+}
+/* Ensure all body content is center-aligned */
+body {
+    text-align: center; /* Center-align all text globally */
+    font-size: 1.2rem; /* Larger font size for readability */
+    line-height: 1.8; /* Improved line spacing */
+}
+
+/* General container alignment for all pages */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center-align all content */
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%; /* Keep content responsive and within bounds */
+}
+
+/* Center headings across all pages */
+h1, h2, h3 {
+    text-align: center; /* Center align headings */
+    margin-bottom: 20px; /* Add spacing below headings */
+}
+
+/* Center alignment for the Blog Page */
+.blog-page .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center-align blog card content */
+    margin: 20px auto;
+    max-width: 800px; /* Restrict blog content width */
+}
+
+/* Center alignment for the Gallery Page */
+.gallery-page .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center; /* Center the gallery grid */
+    gap: 25px; /* Ensure consistent spacing between items */
+    width: 100%;
+}
+
+.gallery-page .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align gallery items */
+    text-align: center; /* Center text below images */
+}
+
+.gallery-page .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Center alignment for the Login Page */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center; /* Center all login page text */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Restrict form width for readability */
+    width: 100%;
+}
+
+/* Center alignment for the Contact Page */
+.contact-page .contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center-align contact card content */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px; /* Restrict width of contact cards */
+}
 
